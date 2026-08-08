@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gem T Abaddon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .main-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .title-area {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .title-image {
+    width: 220px;
+    height: 220px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    object-fit: contain;
+}
+
+      h1 {
+    margin: 0;
+    font-size: 42px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+}
+
+      h2 {
+    margin: 8px 0 0;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+     .menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 95vw;
+}
+
+     .menus a {
+    display: block;
+    width: 32%;
+}
+
+        .menus img {
+            width: 100%;
+            display: block;
+            cursor: pointer;
+            transition: transform 0.25s ease;
+        }
+
+        .menus img:hover {
+            transform: scale(1.11);
+        }
+
+        .musica {
+            position: fixed;
+            top: 25px;
+            right: 30px;
+        }
+
+@media (max-width: 700px) {
+
+    .main-page {
+        padding: 30px 15px;
+    }
+
+    .title-image {
+        width: 100px;
+        height: 100px;
+        top: 15px;
+        left: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .title-area {
+        margin-top: 80px;
+        margin-bottom: 35px;
+    }
+
+    .menus {
+        flex-direction: column;
+        gap: 35px;
+        width: 90vw;
+    }
+
+    .menus a {
+        width: 90%;
+    }
+
+    .musica {
+        top: 15px;
+        right: 15px;
+    }
+}
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="main-page">
+
+        <div class="musica">
+            🎵 Música
+        </div>
+
+        <div class="title-area">
+
+            <img src="logo.png" class="title-image" alt="Logo.png">
+
+            <div>
+                <h1>Gem T Abaddon</h1>
+                <h2>Numbers and language</h2>
+            </div>
+
+        </div>
+
+        <div class="menus">
+
+            <a href="menu1.html">
+                <img src="1.png" alt="Menu 1">
+            </a>
+
+            <a href="menu2.html">
+                <img src="2.png" alt="Menu 2">
+            </a>
+
+            <a href="menu3.html">
+                <img src="3.png" alt="Menu 3">
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
