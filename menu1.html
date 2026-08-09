@@ -6,27 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Level 1 - Gem T Abaddon</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Level 1</title>
 
     <style>
 
         body {
             background-color: black;
-            color: white;
             margin: 0;
-            font-family: "Cinzel", serif;
-            text-align: center;
-        }
-
-        .page {
-            width: 100%;
-            padding-top: 40px;
-            padding-bottom: 80px;
+            padding: 0;
         }
 
         .back-button {
@@ -37,30 +24,27 @@
             color: white;
             text-decoration: none;
 
-            font-family: "Cinzel", serif;
+            font-family: Arial, sans-serif;
             font-size: 16px;
 
             border: 1px solid white;
             padding: 10px 18px;
 
-            transition: all 0.25s ease;
+            z-index: 1000;
+
+            transition: transform 0.25s ease;
         }
 
         .back-button:hover {
             transform: scale(1.05);
         }
 
-        h1 {
-            font-family: "Cinzel Decorative", serif;
-            font-size: 38px;
-            margin-top: 20px;
-            margin-bottom: 60px;
-        }
-
         .content {
             width: 80%;
             max-width: 1000px;
             margin: 0 auto;
+            padding-top: 100px;
+            padding-bottom: 80px;
         }
 
         .content img {
@@ -72,10 +56,6 @@
 
         @media (max-width: 700px) {
 
-            .page {
-                padding-top: 80px;
-            }
-
             .back-button {
                 top: 15px;
                 left: 15px;
@@ -83,13 +63,9 @@
                 padding: 8px 12px;
             }
 
-            h1 {
-                font-size: 28px;
-                margin-bottom: 40px;
-            }
-
             .content {
                 width: 92%;
+                padding-top: 80px;
             }
 
             .content img {
@@ -104,19 +80,13 @@
 
 <body>
 
-    <div class="page">
+    <a href="index.html" class="back-button">
+        ← GO BACK TO MAIN
+    </a>
 
-        <a href="index.html" class="back-button">
-            ← GO BACK TO MAIN
-        </a>
+    <div class="content">
 
-        <h1>LEVEL 1</h1>
-
-        <div class="content">
-
-            <!-- YOUR IMAGES WILL GO HERE -->
-
-        </div>
+        <!-- YOUR LEVEL 1 IMAGES WILL GO HERE -->
 
     </div>
 
